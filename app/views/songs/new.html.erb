@@ -18,10 +18,10 @@
  
   <%= f.label :notes %><br>
   <% (1..2).each do |num| %>
-    <input id=<%= "song_notes_#{num}" %> name='song[notes_content][]'><br>
+    <input id=<%= "song_notes_#{num}" %> name='song[notes][]'><br>
   <%end%>
   <br>
-  
+
   <%= f.submit %>
 <% end %>
 
